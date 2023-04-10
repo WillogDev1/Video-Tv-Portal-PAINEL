@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-color: rgb(156, 97, 250);
+}
+video {
+    display: block;
+    background: rgb(156, 97, 250);
+}
+.btn-fs {
+    border: none;
+    background-color: rgb(133, 65, 243);
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+video::-webkit-media-controls-timeline {
+    display: none;
+}
+video::-webkit-media-controls {
+    display: none;
+}
+#myvideo {
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.player{
+    text-align: center
+}

@@ -22,6 +22,8 @@
 
 Criação de um webservice para rede interna transmitir vídeos institucionais.
 
+
+O site será hospedado internamente com express e usaremos Nodemoon para atualização do servidor quando houver mudança de vídeo.
 # Status do Projeto
 
 <h4 align="center"> 
@@ -39,7 +41,7 @@ Criação de um webservice para rede interna transmitir vídeos institucionais.
 
 # 🛠️ Abrir e rodar o projeto
 
-**Instale Nodejs e as seguintes dependencias dentro da pasta: express**
+**Instale Nodejs e as seguintes dependencias dentro da pasta: express, nodemoon**
 
 # Tecnologias utilizadas
 
