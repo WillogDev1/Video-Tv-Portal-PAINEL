@@ -20,7 +20,7 @@ app.use("/public", express.static(path.join(__dirname, "public")));
 app.set("views", path.join(__dirname, "/views"));
 
 app.get("/", (req, res) => {
-  fs.readFile("./views/index.html", (err, html) => res.end(html));
+  fs.readFile("./views/WebVideoPlay.html", (err, html) => res.end(html));
 });
 
 app.listen(3000, "IP-DA-SUA-MAQUINA", () =>
