@@ -5,7 +5,6 @@
 <img src="https://img.shields.io/badge/-HTML-green"/>
 <img src="https://img.shields.io/badge/-CSS-green"/>
 <img src="https://img.shields.io/badge/-JavaScript-green"/>
-<img src="https://img.shields.io/badge/-Ruckus%20VSZ-orange"/>
 </p>
 
 # Índice
