@@ -41,7 +41,7 @@ O site será hospedado internamente com express e usaremos Nodemoon para atualiz
 
 # 🛠️ Abrir e rodar o projeto
 
-**Instale Nodejs e as seguintes dependencias dentro da pasta: express, nodemoon**
+**Instale Nodejs e as seguintes dependencias dentro da pasta: express, nodemoon, ejs**
 
 # Tecnologias utilizadas
 
