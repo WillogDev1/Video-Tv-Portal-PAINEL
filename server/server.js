@@ -21,9 +21,14 @@ app.use("/public", express.static(path.join(__dirname, "public")));
 app.set("views", path.join(__dirname, "/views"));
 
 
-/* Serve o arquivo html como pagina inicial */
-app.get("/", (req, res) => {
-  fs.readFile("./views/WebVideoPlay.html", (err, html) => res.end(html));
+/* Serve o arquivo html portal 01 */
+app.get("/portal01", (req, res) => {
+  fs.readFile("./views/Web-Video-Portal-01.html", (err, html) => res.end(html));
+});
+
+/* Serve o arquivo html portal 02 */
+app.get("/portal01", (req, res) => {
+  fs.readFile("./views/Web-Video-Portal-02.html", (err, html) => res.end(html));
 });
 
 /* Cria o webservice no seu ip e porta escolihdo */
