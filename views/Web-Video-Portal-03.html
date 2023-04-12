@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="public/WebVideoPlay.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video-TV-Portal</title>
+  </head>
+
+  <body>
+    <div class="player">
+      <video
+        id="videoPlayer"
+        width="100%"
+        height="100%"
+        controls
+        loop
+        muted="muted"
+        autoplay
+      >
+      <!-- Declara o endpoint criado para o video -->
+        <source src="http://192.168.0.3:3000/portal03-video" type="video/mp4" />
+      </video>
+    </div>
+  </body>
+</html>
